@@ -1,0 +1,14 @@
+{
+    "name": "10253/class_math",
+    "description": "math_class",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "compute_interface\\": "src/compute_interface/",
+            "compute_abstract\\": "src/compute_abstract/",
+            "compute\\": "src/compute/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
