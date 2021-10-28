@@ -14,6 +14,9 @@ abstract class compute_abstract implements compute_inter{
     public function n_cal($m,$n){
         $this->$n=$n;
     }
+    public function Formula_cal($m,$n){
+
+    }
     public function total_cal($method,$m,$n){
         
     }

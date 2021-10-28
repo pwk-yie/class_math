@@ -2,11 +2,13 @@
 require "./vendor/autoload.php";
 
 $method = new compute\compute();
+$P = new compute\P();
+$C = new compute\C();
 
-echo $method->total_cal("m_cal",5,2)."=";
+echo $P->Formula_cal(5,2)."=";
 
-echo $method->m_cal(5,2)."\n |||||";
+echo $P->m_cal(5,2)."\n |||||";
 
 echo $method->total_cal("n_cal",5,2)."=";
 
-echo $method->n_cal(5,2);
+echo $C->n_cal(5,2);
